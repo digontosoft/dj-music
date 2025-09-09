@@ -46,9 +46,9 @@ const Faq = () => {
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem
               value="item-1"
-              className="border-t border-b border-gray-700"
+              className="border-t border-b border-[#161d2c]"
             >
-              <AccordionTrigger className="flex justify-between items-center text-xl leading-[30px] font-sans font-medium text-[#6E7985] py-4 hover:no-underline">
+              <AccordionTrigger className="flex justify-between items-center text-xl leading-[30px] font-sans font-medium text-[#6E7985] py-4 hover:no-underline cursor-pointer">
                 Do you travel outside of Palm Beach Gardens?
                 <span className="accordion-icon"></span>
               </AccordionTrigger>
@@ -57,8 +57,8 @@ const Faq = () => {
                 for destination events nationwide.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-2" className="border-b border-gray-700">
-              <AccordionTrigger className="flex justify-between items-center text-xl leading-[30px] font-sans font-medium text-[#6E7985] py-4 hover:no-underline">
+            <AccordionItem value="item-2" className="border-b border-[#161d2c]">
+              <AccordionTrigger className="flex justify-between items-center text-xl leading-[30px] font-sans font-medium text-[#6E7985] py-4 hover:no-underline cursor-pointer">
                 Can we customize the music for our event?
                 <span className="accordion-icon"></span>
               </AccordionTrigger>
@@ -67,8 +67,8 @@ const Faq = () => {
                 must-have songs.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-3" className="border-b border-gray-700">
-              <AccordionTrigger className="flex justify-between items-center text-xl leading-[30px] font-sans font-medium text-[#6E7985] py-4 hover:no-underline">
+            <AccordionItem value="item-3" className="border-b border-[#161d2c]">
+              <AccordionTrigger className="flex justify-between items-center text-xl leading-[30px] font-sans font-medium text-[#6E7985] py-4 hover:no-underline cursor-pointer">
                 What kind of equipment do you use?
                 <span className="accordion-icon"></span>
               </AccordionTrigger>
@@ -85,9 +85,9 @@ const Faq = () => {
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem
               value="item-4"
-              className="border-t border-b border-gray-700"
+              className="border-t border-b border-[#161d2c]"
             >
-              <AccordionTrigger className="flex justify-between items-center text-xl leading-[30px] font-sans font-medium text-[#6E7985] py-4 hover:no-underline">
+              <AccordionTrigger className="flex justify-between items-center text-xl leading-[30px] font-sans font-medium text-[#6E7985] py-4 hover:no-underline cursor-pointer">
                 Do you work with wedding planners?
                 <span className="accordion-icon"></span>
               </AccordionTrigger>
@@ -96,8 +96,8 @@ const Faq = () => {
                 their jobs easier and events smoother.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-4" className="border-b border-gray-700">
-              <AccordionTrigger className="flex justify-between items-center text-xl leading-[30px] font-sans font-medium text-[#6E7985] py-4 hover:no-underline">
+            <AccordionItem value="item-5" className="border-b border-[#161d2c]">
+              <AccordionTrigger className="flex justify-between items-center text-xl leading-[30px] font-sans font-medium text-[#6E7985] py-4 hover:no-underline cursor-pointer">
                 How far in advance should we book?
                 <span className="accordion-icon"></span>
               </AccordionTrigger>

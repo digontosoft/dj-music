@@ -8,7 +8,12 @@ import TrustSection from "@/components/trustsection/trustsection";
 const Home = () => {
   return (
     <>
-      <Hero />
+      <Hero
+        title2="Creating Unforgettable Vibes One Beat at a Time"
+        subtitle1="Luxury DJ & Audio-Visual Services for Weddings, Events, and Celebrations in South Florida & Beyond."
+        subtitleclassName="max-w-2/5"
+        buttonTitle="Book A Call With Nate"
+      />
       <TrustSection />
       <MoreMusicMode />
       <SoundTrackSection />

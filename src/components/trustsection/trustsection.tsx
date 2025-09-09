@@ -8,7 +8,7 @@ const TrustSection = () => {
           <h1 className="text-[42px] leading-[54.6px] text-[#E9E9E7] font-heading font-medium">
             Trusted By
           </h1>
-          <h1>
+          {/* <h1>
             <span className="text-[42px] leading-[54.6px] font-heading font-medium bg-gradient-to-r from-[#4f46e5] to-[#7450f5] bg-clip-text text-transparent">
               Top Planners,
             </span>{" "}
@@ -21,6 +21,9 @@ const TrustSection = () => {
           </h1>
           <h1 className="text-[42px] leading-[54.6px] text-[#E9E9E7] font-heading font-medium">
             Across Florida
+          </h1> */}
+          <h1 className="text-[42px] leading-[54.6px] font-heading font-medium bg-gradient-to-r from-[#4f46e5] via-[#b148f7]  to-[#c53737] bg-clip-text text-transparent">
+            Top Planners, Brides, and Businesses
           </h1>
         </div>
         <p className="text-lg leading-[23.4px] text-[#6E7985] font-sans font-medium">
