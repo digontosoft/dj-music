@@ -11,7 +11,7 @@ const Footer = () => {
 
       {/* Content for the footer, ensure it's above the blobs */}
       <div className="relative z-10 w-full flex-grow flex flex-col items-center justify-center space-y-8">
-        <h2 className="text-4xl leading-[45.5px] font-heading">
+        <h2 className="text-4xl leading-[45.5px] font-heading text-center">
           Want to work with us?
         </h2>
         <p className="text-center text-gray-400 font-sans font-light text-lg leading-[23.4px]">
@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom section with logo, links, and copyright */}
-      <div className="relative z-10 w-full max-w-7xl border-t border-gray-800 pt-8 grid grid-cols-1 md:grid-cols-5 gap-8 items-start text-left text-gray-400">
+      <div className="relative z-10 w-full max-w-7xl mt-10 sm:mt-0 border-t border-gray-800 pt-8 grid grid-cols-1 md:grid-cols-5 gap-8 items-start text-left text-gray-400">
         {/* Logo and text */}
         <div className="md:col-span-1 flex flex-col items-start">
           {/* Replace with your actual logo component or image */}

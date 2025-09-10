@@ -11,8 +11,10 @@ const Corporate = () => {
         title2="Professional DJ & AV Support for High-Impact Business Events"
         subtitle1="When it comes to corporate events, presentation and energy are everything. I provide live DJ and bilingual MC services tailored for professional audiences, while my team delivers the full AV and lighting setup to match your brand and goals."
         subtitle2="From conferences to team-building parties, we help your event run smoothly — and sound incredible."
-        title2className="max-w-3/6"
+        title2className="sm:max-w-3/6"
         buttonTitle="Book A Call With DJ Nate"
+        sectionClassName="sm:h-[70vh] h-screen"
+        subtitleclassName="sm:max-w-3/6 max-w-6/7"
       />
       <CorporateServices />
       <CorporateEvents />

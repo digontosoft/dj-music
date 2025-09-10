@@ -22,11 +22,14 @@ const TrustSection = () => {
           <h1 className="text-[42px] leading-[54.6px] text-[#E9E9E7] font-heading font-medium">
             Across Florida
           </h1> */}
-          <h1 className="text-[42px] leading-[54.6px] font-heading font-medium bg-gradient-to-r from-[#4f46e5] via-[#b148f7]  to-[#c53737] bg-clip-text text-transparent">
+          <h1 className="text-[42px] leading-[54.6px] font-heading font-medium text-center bg-gradient-to-r from-[#4f46e5] via-[#b148f7]  to-[#c53737] bg-clip-text text-transparent">
             Top Planners, Brides, and Businesses
           </h1>
+          <h1 className="text-[42px] leading-[54.6px] text-[#E9E9E7] font-heading font-medium">
+            Across Florida
+          </h1>
         </div>
-        <p className="text-lg leading-[23.4px] text-[#6E7985] font-sans font-medium">
+        <p className="text-lg leading-[23.4px] text-[#6E7985] font-sans font-medium text-center px-4 sm:px-0">
           We’re proud to be a preferred partner for event producers, luxury
           venues, and corporate teams who demand excellence.
         </p>

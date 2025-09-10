@@ -13,6 +13,8 @@ const Weddings = () => {
         subtitle2="Backed by my AV and lighting team, I ensure every detail is handled — so you and your guests can focus on making memories."
         title2className="max-w-3/6"
         buttonTitle="Book A Call With DJ Nate"
+        sectionClassName="sm:h-[70vh] h-screen"
+        subtitleclassName="sm:max-w-3/6 max-w-5/6"
       />
       <WeddingServices />
       <WeddingincludeSection />

@@ -9,6 +9,7 @@ type HeroProps = {
   subtitle1?: string;
   subtitle2?: string;
   buttonTitle?: string;
+  sectionClassName?: string;
   title2className?: string;
   subtitleclassName?: string;
 };
@@ -19,11 +20,17 @@ const Hero = ({
   subtitle1,
   subtitle2,
   buttonTitle,
+  sectionClassName,
   title2className,
   subtitleclassName,
 }: HeroProps) => {
   return (
-    <section className="relative w-full h-[75vh] overflow-hidden">
+    <section
+      className={twMerge(
+        "relative w-full h-screen flex items-center justify-center",
+        sectionClassName
+      )}
+    >
       {/* Background Video */}
       <video
         src={nature}
@@ -38,13 +45,13 @@ const Hero = ({
       <div className="absolute inset-0 bg-black/60"></div>
 
       {/* Content */}
-      <div className="relative z-10 left-48 container mx-auto flex flex-col items-start justify-center space-y-10 h-full">
+      <div className="relative z-10 sm:left-48 left-4 container mx-auto flex flex-col items-start justify-center space-y-10 h-full">
         <h1 className="text-[30px] leading-[39px] font-heading font-normal bg-gradient-to-r from-[#4f46e5] via-[#b148f7]  to-[#c53737] bg-clip-text text-transparent">
           {title1}
         </h1>
         <h1
           className={twMerge(
-            "w-full max-w-2/5 text-3xl md:text-[42px] text-[#E9E9E7] font-heading font-normal tracking-wider leading-[54.6px]",
+            "w-full sm:max-w-2/5 sm:text-[42px] text-[36px] text-[#E9E9E7] font-heading font-normal tracking-wider leading-[54.6px]",
             title2className
           )}
         >
@@ -52,7 +59,7 @@ const Hero = ({
         </h1>
         <p
           className={twMerge(
-            "w-full max-w-3/6 text-base md:text-lg font-sans font-medium leading-[23.4px] text-gray-400",
+            "w-full sm:max-w-3/6 text-base md:text-lg font-sans font-medium leading-[23.4px] text-gray-400",
             subtitleclassName
           )}
         >
@@ -60,7 +67,7 @@ const Hero = ({
         </p>
         <p
           className={twMerge(
-            "w-full max-w-3/6 text-base md:text-lg font-sans font-medium leading-[23.4px] text-gray-400",
+            "w-full sm:max-w-3/6 text-base md:text-lg font-sans font-medium leading-[23.4px] text-gray-400",
             subtitleclassName
           )}
         >

@@ -1,12 +1,6 @@
 import logo from "@/assets/images/tmpmmnklel5.webp";
 import { Button } from "@/components/ui/button";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -41,7 +35,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        <div>
+        <div className="hidden md:block">
           <Link to="/">
             <Button
               className="bg-[#05070A] border border-slate-600 rounded-full text-lg font-sans font-medium text-blue-700 flex items-center justify-center px-12 py-6"
@@ -60,17 +54,17 @@ const Navbar = () => {
                 <Menu className="h-6 w-6 text-white" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-64">
-              <SheetHeader>
-                <SheetTitle className="text-blue-600">MyBrand</SheetTitle>
-              </SheetHeader>
-              <div className="mt-6 flex flex-col space-y-4">
+            <SheetContent
+              side="right"
+              className="w-full border-none bg-[#191B24] opacity-95"
+            >
+              <div className="px-5 mt-20  flex flex-col items-end space-y-4">
                 {navLinks.map((link) => (
                   <Link
                     key={link.name}
                     to={link.href}
                     onClick={() => setOpen(false)}
-                    className="text-lg font-medium text-gray-700 hover:text-blue-600"
+                    className="text-lg font-medium text-gray-300 hover:text-blue-600"
                   >
                     {link.name}
                   </Link>
@@ -79,6 +73,16 @@ const Navbar = () => {
             </SheetContent>
           </Sheet>
         </div>
+      </div>
+      <div className="md:hidden flex items-center justify-center mt-5">
+        <Link to="/">
+          <Button
+            className="bg-[#05070A] border border-slate-600 rounded-full text-lg font-sans font-medium text-blue-700 flex items-center justify-center w-full px-12 py-6"
+            style={{ boxShadow: "inset 0 2px 6px rgba(37, 99, 235, 0.5)" }}
+          >
+            Book A Call With Nate
+          </Button>
+        </Link>
       </div>
     </nav>
   );
