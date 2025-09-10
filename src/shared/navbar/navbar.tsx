@@ -56,9 +56,18 @@ const Navbar = () => {
             </SheetTrigger>
             <SheetContent
               side="right"
-              className="w-full border-none bg-[#191B24] opacity-95"
+              className="w-full border-none bg-[#191B24] opacity-95 text-white"
             >
-              <div className="px-5 mt-20  flex flex-col items-end space-y-4">
+              {/* Force close button (X) color */}
+              <style>
+                {`
+      .shadcn-sheet-close svg {
+        color: white !important;
+      }
+    `}
+              </style>
+
+              <div className="px-5 mt-20 flex flex-col items-end space-y-4">
                 {navLinks.map((link) => (
                   <Link
                     key={link.name}

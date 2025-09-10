@@ -27,7 +27,7 @@ const Hero = ({
   return (
     <section
       className={twMerge(
-        "relative w-full h-screen flex items-center justify-center",
+        "relative w-full sm:h-[70vh] h-screen flex items-center justify-center overflow-x-hidden",
         sectionClassName
       )}
     >

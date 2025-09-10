@@ -11,7 +11,7 @@ const Home = () => {
       <Hero
         title2="Creating Unforgettable Vibes One Beat at a Time"
         subtitle1="Luxury DJ & Audio-Visual Services for Weddings, Events, and Celebrations in South Florida & Beyond."
-        subtitleclassName="sm:max-w-2/5 max-w-5/6"
+        subtitleclassName="sm:max-w-3/4 max-w-5/6"
         buttonTitle="Book A Call With Nate"
       />
       <TrustSection />
