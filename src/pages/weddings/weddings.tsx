@@ -1,3 +1,4 @@
+import Client from "@/components/client/Client";
 import Hero from "@/components/hero/hero";
 import WeddingFaq from "@/components/weddingfaq/weddingfaq";
 import WeddingincludeSection from "@/components/weddingincludesection/weddingincludesection";
@@ -18,6 +19,7 @@ const Weddings = () => {
       />
       <WeddingServices />
       <WeddingincludeSection />
+      <Client/>
       <WeddingFaq />
     </>
   );

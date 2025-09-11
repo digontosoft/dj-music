@@ -1,7 +1,9 @@
 import AboutdjSection from "@/components/aboutdjsection/aboutdjsection";
 import AboutFaq from "@/components/aboutfaq/aboutfaq";
+import Client from "@/components/client/Client";
 import Hero from "@/components/hero/hero";
 import OurProcess from "@/components/ourprocess/ourprocess";
+
 
 const About = () => {
   return (
@@ -21,6 +23,7 @@ const About = () => {
       />
       <AboutdjSection />
       <OurProcess />
+      <Client/>
       <AboutFaq />
     </>
   );

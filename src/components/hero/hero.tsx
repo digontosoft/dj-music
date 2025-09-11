@@ -1,4 +1,4 @@
-import nature from "@/assets/video/nature.mp4";
+// import nature from "@/assets/video/nature.mp4";
 import type { ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
 import { Button } from "../ui/button";
@@ -33,7 +33,7 @@ const Hero = ({
     >
       {/* Background Video */}
       <video
-        src={nature}
+        src={'https://res.cloudinary.com/dt3qrt76n/video/upload/v1757588028/2022395-hd_1920_1080_30fps_afxlik.mp4'}
         autoPlay
         loop
         muted

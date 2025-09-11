@@ -1,3 +1,4 @@
+import Client from "@/components/client/Client";
 import CorporateEvents from "@/components/corporateevents/corporateevents";
 import CorporateFaq from "@/components/corporatefaq/corporatefaq";
 import CorporateServices from "@/components/corporateservices/corporateservices";
@@ -18,6 +19,7 @@ const Corporate = () => {
       />
       <CorporateServices />
       <CorporateEvents />
+      <Client/>
       <CorporateFaq />
     </>
   );

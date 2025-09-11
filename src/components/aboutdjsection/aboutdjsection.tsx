@@ -96,10 +96,7 @@ const AboutdjSection = () => {
           }}
         >
           <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
-            I started this business because I genuinely love creating great
-            experiences through music. There’s nothing better than seeing a
-            packed dance floor or hearing someone say, “That was the best event
-            I’ve ever been to.”
+           At Global Audio Solutions, we specialize in delivering top-tier audio-visual services for any event. Founded by DJ Jay Sample, a seasoned DJ with over 10 years of experience, we’re passionate about transforming events into unforgettable experiences with high-quality sound, lighting, and live music.
           </p>
           <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
             <span className="text-[#E9E9E7]">
