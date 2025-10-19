@@ -66,7 +66,7 @@ const MoreMusicMode = () => {
                 "inset 6px 6px 12px rgba(37, 99, 235, 0.5), inset -6px -6px 12px rgba(37, 99, 235, 0.2)",
             }}
           >
-            Book A Call With Nate
+            Contact
           </Button>
         </div>
       </div>

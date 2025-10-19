@@ -54,24 +54,24 @@ const WeddingincludeSection = () => {
         {/* Left Side (Text) */}
         <div className="space-y-10 w-full">
           <h1 className="text-3xl sm:text-4xl md:text-[40px] leading-snug md:leading-[52px] font-heading font-medium text-[#E9E9E7]">
-            What’s Included
+            All the Essentials
           </h1>
 
           <div className="space-y-5">
             <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
-              Personalized music selection
+              Professional Sound System
             </p>
             <Separator className="bg-[#161d2c] h-[0.5px]" />
             <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
-              Bilingual MC services
+              Intelligent Lighting & Uplighting Design
             </p>
             <Separator className="bg-[#161d2c] h-[0.5px]" />
             <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
-              Custom lighting and effects
+              Custom Stage & DJ Booth Setup
             </p>
             <Separator className="bg-[#161d2c] h-[0.5px]" />
             <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
-              Timeline planning and coordination
+              Dedicated Sound Engineer for optimal balance and clarity
             </p>
           </div>
 

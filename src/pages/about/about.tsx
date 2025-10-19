@@ -12,14 +12,14 @@ const About = () => {
         title2={
           <>
             Meet <br />
-            DJ Nate Polite — The <br />
+            DJ SAMPLE— The <br />
             Heart of Modern <br />
             Sound
           </>
         }
         subtitle1="One DJ. One Vision. One Unforgettable Experience."
         title2className="sm:max-w-3/6 max-w-11/12"
-        buttonTitle="Book A Call With DJ Nate"
+        buttonTitle="Contact"
       />
       <AboutdjSection />
       <OurProcess />

@@ -80,7 +80,7 @@ const AboutdjSection = () => {
         {/* Heading */}
         <div className="space-y-2 text-center md:text-left">
           <h1 className="text-2xl sm:text-3xl md:text-[35px] md:leading-[45.5px] font-heading font-medium text-[#E9E9E7]">
-            Hey, I’m Nate Polite — the DJ
+            Hey, I’m JAMES EVANS — the DJ
           </h1>
           <h1 className="text-2xl sm:text-3xl md:text-[35px] md:leading-[45.5px] font-heading font-medium text-[#E9E9E7]">
             and MC behind Modern Sound
@@ -96,17 +96,13 @@ const AboutdjSection = () => {
           }}
         >
           <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
-           At Global Audio Solutions, we specialize in delivering top-tier audio-visual services for any event. Founded by DJ Jay Sample, a seasoned DJ with over 10 years of experience, we’re passionate about transforming events into unforgettable experiences with high-quality sound, lighting, and live music.
+           Global Audio Solutions is led by DJ Jay Sample—a world-renowned DJ with over 20 years of experience performing for international audiences. We specializes in delivering premium sound, lighting, and hard-to-find DJ equipment for events of every size. From intimate gatherings to large-scale productions, our team of expert sound and lighting technicians transforms each occasion into a dynamic, seamless, and unforgettable experience 
           </p>
           <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
             <span className="text-[#E9E9E7]">
-              Over the past 10 years, I’ve had the chance to DJ all kinds of
-              events — weddings, galas, brand activations, you name it.
+              
             </span>{" "}
-            What I’ve learned is that a great event comes down to two things:
-            energy and execution. That’s where I come in. I bring the right
-            music, read the room, keep the flow going, and make sure everything
-            sounds clean and looks on point.
+            
           </p>
         </div>
 
@@ -119,19 +115,13 @@ const AboutdjSection = () => {
           }}
         >
           <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
-            While I handle all the music and MC duties myself, I’ve got an
-            awesome team who works behind the scenes. They take care of the
-            lighting, AV, and all the technical stuff that makes an event run
-            smoothly. So when I show up, we’re not just playing music — we’re
-            creating a full experience.
+           At Global Audio Solutions, our mission is to deliver exceptional audiovisual experiences through professional sound engineering, advanced technology, and seamless execution. We are dedicated to providing every client with reliable, innovative, and high-quality production that elevates each event to the highest standard of excellence.
           </p>
         </div>
 
         {/* Outro Paragraph */}
         <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#E9E9E7] text-center md:text-left">
-          Whether you’re planning a wedding, corporate event, or something
-          totally unique, I’d love to be part of it. Let’s make it fun, make it
-          smooth, and make it unforgettable.
+          
         </p>
       </div>
 
@@ -139,7 +129,7 @@ const AboutdjSection = () => {
       <div className="w-full md:w-1/2 flex flex-col items-center justify-center">
         <img
           src={aboutdjimage}
-          alt="DJ Nate Polite"
+          alt="DJ JAMES SAMPLE"
           className="w-full max-w-sm sm:max-w-md lg:max-w-lg h-auto object-cover rounded-xl"
         />
         <div className="mt-8 md:mt-16 lg:mt-24">

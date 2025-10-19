@@ -99,7 +99,7 @@ const WeddingServices = () => {
     <div className="w-full max-w-[1440px] mx-auto h-auto space-y-10 py-20 px-4 md:px-8">
       {/* Section Title */}
       <h1 className="text-3xl sm:text-4xl md:text-[40px] leading-snug sm:leading-[45px] md:leading-[52px] font-heading font-medium text-center bg-gradient-to-r from-[#4f46e5] to-[#b148f7] bg-clip-text text-transparent">
-        Wedding Services
+        Rental Services
       </h1>
 
       {/* Grid Layout */}
@@ -113,11 +113,11 @@ const WeddingServices = () => {
           }}
         >
           <h1 className="text-xl sm:text-2xl md:text-[25px] leading-snug font-heading font-medium text-[#E9E9E7]">
-            Live DJ Services
+            Lighting 
           </h1>
           <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
-            From cocktail hour to dance floor hits, I mix music that’s perfectly
-            tailored to you and your guests.
+            Our lighting setups are designed to transform any space into a stunning visual experience.
+From elegant uplighting and dynamic washes to vibrant dance floor effects,
           </p>
         </div>
 
@@ -130,11 +130,11 @@ const WeddingServices = () => {
           }}
         >
           <h1 className="text-xl sm:text-2xl md:text-[25px] leading-snug font-heading font-medium text-[#E9E9E7]">
-            Bilingual MC Services (English & Spanish)
+            Sound System Rental 
           </h1>
           <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
-            Seamless transitions, fun energy, and full inclusivity for bilingual
-            weddings.
+            We provide premium sound systems from trusted brands like EAW, JBL, Yorkville, and QSC, built to deliver exceptional clarity and power for any event.
+
           </p>
         </div>
 
@@ -147,11 +147,11 @@ const WeddingServices = () => {
           }}
         >
           <h1 className="text-xl sm:text-2xl md:text-[25px] leading-snug font-heading font-medium text-[#E9E9E7]">
-            Lighting Design
+            Dj Equipment Rental 
           </h1>
           <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
-            Elegant uplighting, dance floor effects, and color themes that
-            complement your venue and mood.
+            We offer professional DJ equipment rentals featuring industry-standard gear such as the Pioneer CDJ-3000, CDJ-2000NXS2, DJM-A9, and Rane performance mixers.
+
           </p>
         </div>
 
@@ -167,8 +167,8 @@ const WeddingServices = () => {
             Ceremony & Reception AV Setup
           </h1>
           <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
-            We provide everything needed for clear audio during vows, speeches,
-            and announcements, with separate setups for ceremony and reception.
+            We deliver seamless ceremonial and reception AV setups that ensure every moment sounds and looks flawless.
+From crystal-clear microphones and discreet speakers to refined visual displays.
           </p>
         </div>
 
@@ -181,11 +181,12 @@ const WeddingServices = () => {
           }}
         >
           <h1 className="text-xl sm:text-2xl md:text-[25px] leading-snug font-heading font-medium text-[#E9E9E7]">
-            Full Timeline Coordination
+            Stage Rental 
           </h1>
           <p className="text-base sm:text-lg leading-relaxed font-sans font-medium text-[#6E7985]">
-            We’ll guide the flow of the night to ensure nothing is missed and
-            everything feels effortless.
+          We provide sleek and professional staging that elevate any event, from rooftop parties to luxury weddings.
+
+
           </p>
         </div>
 

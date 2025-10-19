@@ -1,4 +1,4 @@
-import logo from "@/assets/images/tmpmmnklel5.webp";
+import logo from "@/assets/images/tmpmmnklel5.png";
 import { Button } from "@/components/ui/button";
 import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
       {/* Content for the footer, ensure it's above the blobs */}
       <div className="relative z-10 w-full flex-grow flex flex-col items-center justify-center space-y-8">
         <h2 className="text-4xl leading-[45.5px] font-heading text-center">
-          Want to work with us?
+          P
         </h2>
         <p className="text-center text-gray-400 font-sans font-light text-lg leading-[23.4px]">
           Ready to {""}
@@ -26,7 +26,7 @@ const Footer = () => {
           className="bg-[#05070A] border border-slate-600 rounded-full text-lg font-sans font-medium text-blue-700 flex items-center justify-center px-12 py-8"
           style={{ boxShadow: "inset 0 2px 6px rgba(37, 99, 235, 0.5)" }}
         >
-          Book A Call With Nate
+          Contact
         </Button>
       </div>
 
@@ -48,12 +48,12 @@ const Footer = () => {
           <ul className="space-y-2 text-sm leading-normal">
             <li>
               <a href="#" className="transition-colors font-sans">
-                Weddings
+                Rentals
               </a>
             </li>
             <li>
               <a href="#" className="transition-colors font-sans">
-                Corporate
+                Services
               </a>
             </li>
             <li>
@@ -87,7 +87,7 @@ const Footer = () => {
           <ul className="space-y-2 text-sm leading-normal">
             <li>
               <a href="#" className=" transition-colors font-sans">
-                Contact Nate
+                Contact Global Audio Solutions
               </a>
             </li>
           </ul>
